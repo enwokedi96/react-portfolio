@@ -8,7 +8,7 @@ function Home() {
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-sm-12 col-md-6 col-lg-5">
-                            <img src="./assets/images/profile-img-no-bg.png" style="opacity: 0.65;" class="img-fluid"></img>
+                            <img src="assets\images\profile-img-no-bg.png" style="opacity: 0.65;" class="img-fluid"></img>
                         </div>
                         <div class="col-sm-12 col-md-1 col-lg-1"></div>
                         <div class="col-sm-12 col-md-5 col-lg-6">
