@@ -3,7 +3,7 @@ import "./style.css";
 
 function header(props) {
   return (
-   <header>
+   <div>
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 
     <h2>Ezeckukwu I. <span class="re-hue navbar-brand">Nwokedi</span></h2>
@@ -21,7 +21,7 @@ function header(props) {
         </ul>
       </div>
     </nav>
-  </header>
+  </div>
   );
 }
 
