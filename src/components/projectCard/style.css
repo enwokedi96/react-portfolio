@@ -1,0 +1,9 @@
+.card-image{
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.card-image:hover{
+    opacity: 1;
+}

@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Travel Agency",
-        "image": "assets/images/02-portfolio-1.jpg",
+        "image": "/images/02-portfolio-1.jpg",
         "gitURL": "https://enwokedi96.github.io/activity-travelCalifornia/",
         "gitRepo": "https://github.com/enwokedi96/activity-travelCalifornia/",
         "type": "personal challenge",
@@ -11,7 +11,7 @@
     {
         "id": 1,
         "name": "First Portfolio",
-        "image": "assets/images/02-portfolio-2.jpg",
+        "image": "/images/02-portfolio-2.jpg",
         "gitURL": "https://enwokedi96.github.io/enwokedi-s_portfolio/",
         "gitRepo": "https://github.com/enwokedi96/enwokedi-s_portfolio/",
         "type": "personal challenge",
@@ -20,7 +20,7 @@
     {
         "id": 2,
         "name": "Second Portfolio",
-        "image": "assets/images/02-portfolio-3.jpg",
+        "image": "/images/02-portfolio-3.jpg",
         "gitURL": "https://enwokedi96.github.io/Bootstrap-Portfolio/",
         "gitRepo": "https://github.com/enwokedi96/Bootstrap-Portfolio/",
         "type": "personal challenge",
@@ -29,7 +29,7 @@
     {
         "id": 3,
         "name": "Hodophile",
-        "image": "assets/images/02-portfolio-4.jpg",
+        "image": "/images/02-portfolio-4.jpg",
         "gitURL": "https://enwokedi96.github.io/hodophile/",
         "gitRepo": "https://github.com/enwokedi96/hodophile/",
         "type": "group project",
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "name": "Horiseon: Basic Refactoring",
-        "image": "assets/images/02-run-buddy.jpg",
+        "image": "/images/02-run-buddy.jpg",
         "gitURL": "https://enwokedi96.github.io/horiseon_services/",
         "gitRepo": "https://github.com/enwokedi96/horiseon_services/",
         "type": "personal challenge",
