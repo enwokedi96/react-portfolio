@@ -1,24 +1,49 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
-function NavTabs(props) {
+function NavTabs() {
   return (
    <div>
-    <nav className="navbar navbar-light" style="background-color: #e3f2fd;">
+    <nav className="navbar navbar-expand-lg navbar-light bg-primary ">
 
-    <h2>Ezeckukwu I. <span className="re-hue navbar-brand">Nwokedi</span></h2>
+    <h2 className="heading re-hue"><Link to="/">Ezeckukwu I. <span className="navbar-brand">Nwokedi</span></Link></h2>
 
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-            <li className="nav-item active">
-                <a className="nav-link" href="#about"><strong>About Me</strong></a></li>
-            <li className="nav-item active">
-                <a className="nav-link" href="#coding-projects"><strong>Coding Projects</strong></a></li>
-            <li className="nav-item active">
-                <a className="nav-link" href="#cv"><strong>Curriculum Vitae</strong></a></li>
-            <li className="nav-item active">
-                <a className="nav-link" href="#contact"><strong>Contact Me</strong></a></li>
-        </ul>
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div className="navbar-nav">
+                <a className="nav-item" href="#about"><strong>
+                  <NavLink
+                      to="about"
+                      className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'}>
+                      About Me
+                    </NavLink>
+                  </strong></a>
+                <a className="nav-item" href="#coding-projects"><strong>
+                  <NavLink
+                      to="projects"
+                      className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'}>
+                      Coding Projects
+                    </NavLink>
+                  </strong></a>
+                <a className="nav-item" href="#cv"><strong>
+                  <NavLink
+                      to="cv"
+                      className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'}>
+                      Curriculum Vitae
+                    </NavLink>
+                  </strong></a>
+                <a className="nav-item" href="#contact"><strong>
+                  <NavLink
+                      to="contact"
+                      className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'}>
+                      Contact Me
+                    </NavLink>
+                  </strong></a>
+        </div>
       </div>
     </nav>
   </div>

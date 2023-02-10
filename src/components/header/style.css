@@ -1,0 +1,16 @@
+nav{
+    background-color: #3b7eae !important;
+}
+
+.re-hue {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: azure;
+    border: #909090 solid 3px;
+    border-radius: 10px;
+}
+
+.heading{
+    color: rgb(37, 31, 31) !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
