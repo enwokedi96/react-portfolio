@@ -1,0 +1,31 @@
+/* return to top indicator */
+.return-to-top {
+    display: block;
+    margin: 5px;
+    padding: 0px;
+    border: #7cadc4 solid 3px;
+    background-color: rgb(131, 161, 161,0.5);
+    animation: blink_ 1.5s linear infinite;
+    text-align: center;
+    font-size: small;
+  }
+  
+  @keyframes blink_ {
+    10% {
+      opacity: 0;
+    }
+  }
+
+/* footer */
+.footer{
+    background-color: rgb(131, 161, 161);
+    color: #000!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+b{
+    font-weight: 500;
+}

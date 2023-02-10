@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import "./style.css";
 
 // <Link to={`/project/${props.id}`}>
@@ -18,12 +17,12 @@ function ProjectCard(props){
                 <li>
                     <strong>Type:</strong> {props.type} 
                 </li>
-                <li>
+                <li className="text-justify">
                     <strong>Description:</strong> {props.description}
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="text-center text-black">
                 <a href={props.gitURL}> View Deployment</a>
             </div>
         </div>

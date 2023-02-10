@@ -13,7 +13,7 @@ function NavTabs() {
         <div className="navbar-nav">
                 <a className="nav-item" href="#about"><strong>
                   <NavLink
-                      to="about"
+                      to="aboutMe"
                       className={({ isActive }) =>
                         isActive ? 'nav-link active' : 'nav-link'}>
                       About Me

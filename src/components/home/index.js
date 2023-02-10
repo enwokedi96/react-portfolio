@@ -1,7 +1,8 @@
-import React from "react";
 import "./style.css";
+import React from 'react'
 
 function Home() {
+
   return (
     <div id="hero">
             <div className="jumbotron jumbotron-fluid" id="bg-clr">
