@@ -12,3 +12,11 @@
     text-decoration: none;
     color: #000;
 }
+
+.content {
+    background-color: aliceblue;
+    color: #000;
+    padding-top: 10px;
+    padding-right: 20px ;
+    border-radius: 25px;
+}

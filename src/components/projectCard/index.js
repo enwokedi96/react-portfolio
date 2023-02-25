@@ -4,16 +4,18 @@ import "./style.css";
 // <Link to={`/project/${props.id}`}>
 
 function ProjectCard(props){
-    return (      
-        <div className="card card-image p-2" style={{ backgroundImage: `url(${props.image})`}}>
+    return (  
+        <div className="col-4 my-3">
+        <div className="card card-image py-3" style={{ backgroundImage: `url(${props.image})`}}>
             {/* <div className="img-container">
                 <img alt={props.name} src={props.image} />
             </div> */}
             <div className="content">
+                <h4 className="text-justify text-center">{props.name}</h4>
+                <div className="text-center text-black">
+                    <a href={props.gitURL}> View Deployment</a>
+                </div>
               <ul>
-                <li>
-                    <strong>Name:</strong> {props.name} 
-                </li>
                 <li>
                     <strong>Type:</strong> {props.type} 
                 </li>
@@ -22,10 +24,8 @@ function ProjectCard(props){
                 </li>
               </ul>
             </div>
-            <div className="text-center text-black">
-                <a href={props.gitURL}> View Deployment</a>
-            </div>
         </div>
+        </div>    
     );
 }
 
